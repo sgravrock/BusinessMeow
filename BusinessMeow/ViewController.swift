@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         NotificationCenter.default.addObserver(self, selector: #selector(playMeowOfDisapproval), name: UIApplication.didBecomeActiveNotification, object: nil)
     }
     
-    @objc func playMeowOfDisapproval() {
+    @objc @IBAction func playMeowOfDisapproval() {
         if soundId == 0 {
             guard let soundURL = Bundle.main.url(forResource: "Meow_domestic_cat", withExtension: "mp3") else {
                 print("Audio file not found")

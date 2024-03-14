@@ -15,17 +15,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="business-cat" translatesAutoresizingMaskIntoConstraints="NO" id="QLP-9r-ric">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eMY-dg-jta">
                                 <rect key="frame" x="0.0" y="59" width="393" height="759"/>
-                            </imageView>
+                                <accessibility key="accessibilityConfiguration" label="Meow">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="business-cat" title="Button"/>
+                                <connections>
+                                    <action selector="playMeowOfDisapproval" destination="BYZ-38-t0r" eventType="touchUpInside" id="UhT-4a-tEN"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="QLP-9r-ric" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="2xz-k8-luy"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QLP-9r-ric" secondAttribute="trailing" id="54q-F2-WL6"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="QLP-9r-ric" secondAttribute="bottom" id="EpH-Sx-14T"/>
-                            <constraint firstItem="QLP-9r-ric" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="dul-LM-9cH"/>
+                            <constraint firstAttribute="trailing" secondItem="eMY-dg-jta" secondAttribute="trailing" id="3Hv-2x-hFN"/>
+                            <constraint firstItem="eMY-dg-jta" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="MKQ-UC-i6X"/>
+                            <constraint firstItem="eMY-dg-jta" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="uQP-OX-7cd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="eMY-dg-jta" secondAttribute="bottom" id="xHW-V1-O9l"/>
                         </constraints>
                     </view>
                 </viewController>
