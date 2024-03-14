@@ -8,7 +8,9 @@ Time app.
 Installation
 ------------
 
-Hook up your phone. Whack the Run button in Xcode. Enjoy.
+Hook up your phone. Whack the Run button in Xcode. Enjoy Business Cat's
+weekly meow of disapproval whenever you want, without even having to fill
+out your time sheet.
 
 Support
 -------
