@@ -13,6 +13,7 @@
 		AA16BF7A2B9E170C00F4061D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA16BF782B9E170C00F4061D /* Main.storyboard */; };
 		AA16BF7C2B9E170D00F4061D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA16BF7B2B9E170D00F4061D /* Assets.xcassets */; };
 		AA16BF7F2B9E170D00F4061D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA16BF7D2B9E170D00F4061D /* LaunchScreen.storyboard */; };
+		AAF3CF412B9E31DE0016655D /* Meow_domestic_cat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AAF3CF402B9E31DE0016655D /* Meow_domestic_cat.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AA16BF7B2B9E170D00F4061D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA16BF7E2B9E170D00F4061D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA16BF802B9E170D00F4061D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAF3CF402B9E31DE0016655D /* Meow_domestic_cat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Meow_domestic_cat.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		AA16BF662B9E170C00F4061D = {
 			isa = PBXGroup;
 			children = (
+				AAF3CF402B9E31DE0016655D /* Meow_domestic_cat.mp3 */,
 				AA16BF712B9E170C00F4061D /* BusinessMeow */,
 				AA16BF702B9E170C00F4061D /* Products */,
 			);
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAF3CF412B9E31DE0016655D /* Meow_domestic_cat.mp3 in Resources */,
 				AA16BF7F2B9E170D00F4061D /* LaunchScreen.storyboard in Resources */,
 				AA16BF7C2B9E170D00F4061D /* Assets.xcassets in Resources */,
 				AA16BF7A2B9E170C00F4061D /* Main.storyboard in Resources */,
